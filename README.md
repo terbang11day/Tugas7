@@ -3,6 +3,7 @@
 **Daftar isi :**<br/>
 [Tugas 7](#tugas-7)<br/>
 [Tugas 8](#tugas-8)<br/>
+[Tugas 9](#tugas-9)<br/>
 
 
 **Thariq Ziyad Al Farizi**<br/>
@@ -112,3 +113,9 @@ Mewakili detail implementasi seperti Flutter framework, database, atau eksternal
 *Kemudian, tambahkan routing untuk MyHomePage dan StokuFormPage pada bagian routing
 *Hias Drawer dengan Drawer Header
 *Buat Halaman stoku_form.dart
+
+# **Tugas 9**
+1. Kita bisa ambil data JSON tanpa bikin model dulu. Tapi, bikin model bisa bantu baca data lebih gampang dan temukan masalah lebih cepat.
+2. CookieRequest adalah fungsi yang memanfaatkan cookie untuk menyimpan informasi tentang sesi pengguna. Contohnya, setelah pengguna berhasil login, ID sesi disimpan dalam cookie. Cookie ini kemudian dikirim kembali ke server dalam setiap permintaan berikutnya. Dengan begitu, server dapat mengidentifikasi pengguna yang bersangkutan.
+3. Langkah-langkah umum dalam mengambil data dari JSON untuk ditampilkan di Flutter adalah sebagai berikut: Pertama, dilakukan permintaan HTTP untuk mengambil data JSON dari server. Selanjutnya, data JSON tersebut diuraikan (parsed) menjadi struktur data yang bisa dimengerti oleh Flutter, seperti dalam bentuk Map. Data ini kemudian dapat diubah ke dalam bentuk model (jika model sudah disiapkan sebelumnya). Terakhir, data ini ditampilkan melalui widget dalam framework Flutter.
+4. Langkah-langkah dalam proses autentikasi dari Flutter ke Django adalah sebagai berikut: Pertama, pengguna memasukkan informasi akun, seperti username dan password, di aplikasi Flutter. Kemudian, aplikasi Flutter mengirimkan informasi ini ke server Django lewat permintaan HTTP. Setelahnya, server Django memeriksa kebenaran informasi tersebut. Jika data yang dimasukkan valid, server akan membuat sesi untuk pengguna dan mengirimkan kembali ID sesi tersebut ke aplikasi dalam bentuk cookie atau token. Aplikasi Flutter menyimpan ID sesi ini dan menggunakannya untuk setiap permintaan berikutnya, sehingga server dapat mengenali pengguna. Setelah berhasil login, aplikasi Flutter dapat menampilkan menu atau fitur khusus yang tersedia untuk pengguna tersebut.
