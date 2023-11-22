@@ -115,6 +115,7 @@ Mewakili detail implementasi seperti Flutter framework, database, atau eksternal
 *Buat Halaman stoku_form.dart
 
 # **Tugas 9**
+
 1. Kita bisa ambil data JSON tanpa bikin model dulu. Tapi, bikin model bisa bantu baca data lebih gampang dan temukan masalah lebih cepat.
 2. CookieRequest adalah fungsi yang memanfaatkan cookie untuk menyimpan informasi tentang sesi pengguna. Contohnya, setelah pengguna berhasil login, ID sesi disimpan dalam cookie. Cookie ini kemudian dikirim kembali ke server dalam setiap permintaan berikutnya. Dengan begitu, server dapat mengidentifikasi pengguna yang bersangkutan.
 3. Langkah-langkah umum dalam mengambil data dari JSON untuk ditampilkan di Flutter adalah sebagai berikut: Pertama, dilakukan permintaan HTTP untuk mengambil data JSON dari server. Selanjutnya, data JSON tersebut diuraikan (parsed) menjadi struktur data yang bisa dimengerti oleh Flutter, seperti dalam bentuk Map. Data ini kemudian dapat diubah ke dalam bentuk model (jika model sudah disiapkan sebelumnya). Terakhir, data ini ditampilkan melalui widget dalam framework Flutter.
